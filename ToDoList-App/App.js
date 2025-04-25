@@ -3,7 +3,7 @@ import { View, Text, TextInput, TouchableOpacity, FlatList, Switch, StyleSheet, 
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const apiUrl = "https://pit4-todolist-fastapi.onrender.com";
+const apiUrl = "https://tubera-expo.onrender.com";
 
 export default function TodoList() {
   const [tasks, setTasks] = useState([]);
